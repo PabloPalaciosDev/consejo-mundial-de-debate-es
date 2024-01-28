@@ -1,7 +1,7 @@
 import './App.css'
 import { PrimeReactProvider } from 'primereact/api';
 import NavBar from './components/navbar/navbar';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-router-dom';
+import { BrowserRouter as Route, Routes, BrowserRouter} from 'react-router-dom';
 //PAGINAS 
 import LandingPage from './pages/landing/landing';
 import SobreNosotros from './pages/sobre-nosotros';

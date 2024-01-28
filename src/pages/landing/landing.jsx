@@ -1,19 +1,6 @@
 
 function LandingPage() {
-  const titulos_card = [
-    {
-      titulo: "¡Conoce nuestros Proyectos!",
-    },
-    {
-      titulo: "¡Conoce a nuestro equipo de trabajo!",
-    },
-    {
-      titulo: "¿Cómo lo hacemos?",
-    },
-    {
-      titulo: "¿Por qué lo hacemos?",
-    },
-  ]
+
   
   return (
     <>

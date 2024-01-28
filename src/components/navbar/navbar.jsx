@@ -1,10 +1,12 @@
 import { Menubar } from 'primereact/menubar';
+import { Image } from 'primereact/image';
 import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import GroupIcon from '@mui/icons-material/Group';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import StorageIcon from '@mui/icons-material/Storage';
+
 
 
 function NavBar() {
@@ -53,7 +55,7 @@ function NavBar() {
 
     return (
         <div className='navbar'>
-            <img src="./src/assets/images/logo_sf.png" alt="logo" width={200} />
+            <Image src="./src/assets/logo-cmd1.png" alt="logo-cmd" width="250" />
             <nav className="card">
                 <Menubar model={items} className='menu-bar-container' />
             </nav>

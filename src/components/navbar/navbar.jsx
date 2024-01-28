@@ -6,6 +6,7 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import GroupIcon from '@mui/icons-material/Group';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import StorageIcon from '@mui/icons-material/Storage';
+import logo_cmd from '../../assets/images/logo-cmd1.jpg'
 
 
 
@@ -55,7 +56,7 @@ function NavBar() {
 
     return (
         <div className='navbar'>
-            <Image src="./src/assets/images/logo-cmd1.jpg" alt="logo-cmd" width="250" />
+            <Image src={logo_cmd} alt="logo-cmd" width="250" />
             <nav className="card">
                 <Menubar model={items} className='menu-bar-container' />
             </nav>

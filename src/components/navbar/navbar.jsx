@@ -53,7 +53,7 @@ function NavBar() {
 
     return (
         <div className='navbar'>
-            <img src="/src/assets/images/logo_sf.png" alt="logo-cmd" width={200} />
+            <img src="/src/assets/images/logo-cmd.webp" alt="logo" width={200} />
             <nav className="card">
                 <Menubar model={items} className='menu-bar-container' />
             </nav>

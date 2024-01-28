@@ -55,7 +55,7 @@ function NavBar() {
 
     return (
         <div className='navbar'>
-            <Image src="./src/assets/logo-cmd1.png" alt="logo-cmd" width="250" />
+            <Image src="./src/assets/images/logo-cmd1.jpg" alt="logo-cmd" width="250" />
             <nav className="card">
                 <Menubar model={items} className='menu-bar-container' />
             </nav>

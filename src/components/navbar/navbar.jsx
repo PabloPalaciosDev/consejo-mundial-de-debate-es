@@ -18,29 +18,29 @@ function NavBar() {
         {
             label: 'Sobre Nosotros',
             icon: <GroupsIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
-            url: '/sobre-nosotros',
+            url: 'sobre-nosotros',
             items: [
                 {
                     label: '¿Quienes Somos?',
                     icon: <QuestionMarkIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
-                    url: '/sobre-nosotros'
+                    url: 'sobre-nosotros'
                 },
                 {
                     label: 'Junta Directiva',
                     icon: <GroupIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
-                    url: '/junta-directiva'
+                    url: 'junta-directiva'
                 }
             ]
         },
         {
             label: 'Proyectos',
             icon: <BusinessCenterIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
-            url: '/proyectos-cmd',
+            url: 'proyectos-cmd',
         },
         {
             label: 'Base de Datos',
             icon: <StorageIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
-            url: '/base-de-datos',
+            url: 'base-de-datos',
         },
         /*
         {
@@ -53,7 +53,7 @@ function NavBar() {
 
     return (
         <div className='navbar'>
-            <img src="/src/assets/images/logo-cmd.webp" alt="logo" width={200} />
+            <img src="./src/assets/images/logo_sf.png" alt="logo" width={200} />
             <nav className="card">
                 <Menubar model={items} className='menu-bar-container' />
             </nav>

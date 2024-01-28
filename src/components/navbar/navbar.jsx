@@ -6,6 +6,7 @@ import GroupIcon from '@mui/icons-material/Group';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import StorageIcon from '@mui/icons-material/Storage';
 
+
 function NavBar() {
 
     const items = [
@@ -52,7 +53,7 @@ function NavBar() {
 
     return (
         <div className='navbar'>
-            <img src="./assets/images/logo-cmd-sin-fondo.png" alt="logo-cmd" width={200} />
+            <img src="/src/assets/images/logo_sf.png" alt="logo-cmd" width={200} />
             <nav className="card">
                 <Menubar model={items} className='menu-bar-container' />
             </nav>

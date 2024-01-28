@@ -21,7 +21,7 @@ function NavBar() {
         {
             label: 'Sobre Nosotros',
             icon: <GroupsIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
-            url: 'sobre-nosotros',
+            url: '',
             items: [
                 {
                     label: '¿Quienes Somos?',

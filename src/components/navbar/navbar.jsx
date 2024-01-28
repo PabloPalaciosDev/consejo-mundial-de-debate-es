@@ -52,7 +52,7 @@ function NavBar() {
 
     return (
         <div className='navbar'>
-            <img src="logo-cmd-sin-fondo.png" alt="logo-cmd" width={200} />
+            <img src="/src/assets/images/logo-cmd-sin-fondo.png" alt="logo-cmd" width={200} />
             <nav className="card">
                 <Menubar model={items} className='menu-bar-container' />
             </nav>
@@ -61,4 +61,4 @@ function NavBar() {
 }
 
 
-export default NavBar
+export default NavBar;

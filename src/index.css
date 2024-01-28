@@ -43,7 +43,7 @@ body{
 
 /*ESTILOS HERO LANDING PAGE*/
 .hero-container {
-    background-image: url(../public/bp-background.jpg);
+    background-image: url(./assets/images/bp-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;

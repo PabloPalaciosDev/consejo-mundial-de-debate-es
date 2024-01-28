@@ -1,68 +1,72 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /*COLORES*/
+    --color-primario-azul: #074DA3;
+    --color-primario-amarillo: #FFDE03;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+#root{
+    padding: 0;
+    max-width: 100%;
 }
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+body{
+    margin:0;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/*ESTILOS MENU BAR*/ 
+.menu-bar-container{
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    height: fit-content;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.menu-bar-container ul li div a span:nth-child(1){
+    color: var(--color-primario-azul);
+    font-weight: bold;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.menu-bar-container ul li div a span:nth-child(2){
+    color: var(--color-primario-azul);
+}
+
+.navbar {
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.navbar nav{
+    padding-top: 0;
+}
+
+
+/*ESTILOS HERO LANDING PAGE*/
+.hero-container {
+    background-image: url(../public/bp-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    > h1{
+        color: var(--color-primario-amarillo);
+        font-size: 100px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    > span{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        background-color: var(--color-primario-azul);
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
 }

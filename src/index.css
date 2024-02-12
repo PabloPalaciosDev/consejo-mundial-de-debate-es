@@ -40,6 +40,20 @@ body{
     padding-top: 0;
 }
 
+/*REUTILIZABLES*/
+.banner-title{
+    font-size: 3rem;
+    width: 100%;
+    background-color: var(--color-primario-azul);
+    color: var(--color-primario-amarillo);
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.papercard-title{
+    text-transform: uppercase;
+}
+
 
 /*ESTILOS HERO LANDING PAGE*/
 .hero-container {
@@ -54,18 +68,19 @@ body{
     justify-content: center;
     > h1{
         color: var(--color-primario-amarillo);
-        font-size: 100px;
+        font-size: 4rem;
         font-weight: bold;
         margin: 10px;
     }
 
     > span{
-        font-size: 50px;
+        font-size: 2.5rem;
         font-weight: bold;
         color: white;
         background-color: var(--color-primario-azul);
-        padding: 10px;
+        padding: 15px;
         border-radius: 20px;
+        margin: 0 10px;
     }
 
 

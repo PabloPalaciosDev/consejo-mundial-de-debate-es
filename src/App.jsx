@@ -8,10 +8,12 @@ import LandingPage from './pages/landing/landing';
 import SobreNosotros from './pages/sobre-nosotros';
 import ProyectosCmd from './pages/proyectos-cmd';
 import BaseDeDatos from './pages/base-de-datos-cmd';
+import JuntaDirectiva from './sections/sobre-nosotros/junta-directiva';
 
 const routes = [
   { path: '/', element: <LandingPage /> },
   { path: '/sobre-nosotros', element: <SobreNosotros /> },
+  { path: '/junta-directiva', element: <JuntaDirectiva />},
   { path: '/proyectos-cmd', element: <ProyectosCmd /> },
   { path: '/base-de-datos', element: <BaseDeDatos /> },
 ];

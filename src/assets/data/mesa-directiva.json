@@ -1,0 +1,72 @@
+{
+    "Presidencia": [
+      {
+        "cargo": "Presidente",
+        "Nombre": "Fabián Yaksic Muñoz",
+        "Nacionalidad": "Chilena",
+        "descripcion": "Licenciado en Historia y Educación por la Pontificia Universidad Católica de Chile. Estudiante de Máster en Innovación Educativa por la Universidad Internacional de la Rioja. Fue adjunto de registro en los periodos 2019- 2020 y 2020-2021, adjunto de secretaría 2021- 2022, vicepresidente 2022-2023 y representante de Chile en 2020-2021 (adj), 2021-2022 y 2022-2023. En el circuito ha sido Mejor Juez de CMUDE 2020 y 2023, Mejor Juez MED 2023, Campeón y Mejor Orador CMUDE Masters 2022 y 2023, Adjudicación de CMUDE 2022, Adjudicación de Discursos CMUDE 2023, Asesor Académico CMUDE 2024, Adjudicación de Discursos MED 2024 y Co-fundador de la Copa Demian de Discursos, Polimnia Academia de Juezes y Copa Disidente."
+      },
+      {
+        "cargo": "Vicepresidente",
+        "Nombre": "Santiago Ortíz",
+        "Nacionalidad": "Colombiana",
+        "descripcion": "Estudiante de Derecho en la Universidad de los Andes con opción en creación literaria y economía. Ha sido el director académico de la Sociedad de Debate Uniandina por dos años, siendo así organizador de torneos como Pre-Nacional Colombia 2022, PreCMUDE Uniandes 2023, Uniandes Open, Uniandes IV, entre otros. Ha sido semifinalista mundial de debate en dos ocasiones (2021 y 2023) y es el actual 8vo Mejor Orador del Mundo Hispanohablante y Campeón Nacional de Colombia."
+      }
+    ],
+    "Secretaria": [
+      {
+        "cargo": "Secretaria",
+        "Nombre": "Tlali Olivarez",
+        "Nacionalidad": "Mexicana",
+        "descripcion": "Ex-presidenta y actual entrenadora de la Sociedad de Debate ITESO, ha sido secretaria de la Mesa Directiva del Consejo Mundial de Debate en 2021-2022 y 2022-2023. Cuartofinalista de CMUDE 2023, 5° break en CMUDE 2022 y dos veces octofinalista de CMUDE (2021 y 2022). Además, es cuartofinalista de CND 2021, subcampeona de TODI 2022 y semifinalista de torneos como TMD y TRD. Ha organizado una innumerable cantidad de torneos y destaca ser adjudicación del nacional de Perú (CNDI 2023), Pre-TUD 2021, torneo de La Paz 202, Másters de CNDI 2022, Masters ToNo 2022, Masters Debatoon 2021 y también de torneos escolares como el nacional en inglés mexicano (MSDC 2023) y TLD 2022."
+      },
+      {
+        "cargo": "Adjunto de Secretaría",
+        "Nombre": "Benjamín Vigueras",
+        "Nacionalidad": "Mexicana",
+        "descripcion": "Benjamin ha tenido una amplia carrera en debate. En cuestiones administrativas, fue presidente del Equipo de debate Tec CEM, adjunto de México para el CMD en 2020 así como representante de México para 2021 y 2022. Es representante de México en el Consejo de Debate Escolar. Adicional a ello, ha sido parte de equipos académicos de múltiples torneos, como tabulación, adjudicación y organización. Por último, destaca haber sido Campeón Mundial de CMUDE 2022 y finalista EFL de WUDC 2019."
+      }
+    ],
+    "Registro": [
+      {
+        "cargo": "Encargada de Registro",
+        "Nombre": "Jaz Gonzales",
+        "Nacionalidad": "Peruana",
+        "descripcion": "Estudiante de Ingeniería Empresarial en la Universidad del Pacífico. Ha sido parte de la organización de distintos proyectos como el Torneo Lasallista de Debate Escolar 2022-2023, Copa Demian de Discursos 2021-2023, Copa Disidente 2021, entre otros. Entre sus principales aportes se encuentran haber sido Vicejefa de Adjudicación Discursos de CMUDE2023 y Jefa de Adjudicación de Discursos en los nacionales de Perú, Panamá y Guatemala 2023. Además, ha sido parte de distintos equipos académicos en el circuito escolar y universitario."
+      },
+      {
+        "cargo": "Adjunto de Registro",
+        "Nombre": "Lex Tello",
+        "Nacionalidad": "Peruana",
+        "descripcion": "Estudiante de arquitectura en la Universidad Peruana de Ciencias Aplicadas. Dentro del circuito de debate fue Campeón del TIDE 2020, Subcampeón escolar del CNDI 2022, semifinalista del MUMUDI 2023, octofinalista de CMUDE 2023 y break en TODI 2023. Ha sido adjudicación del ToEx 10 y TLDE 2023 y, además, juzgó la final novata de la Copa Sol del Norte 2023 y las finales open del Torneo Villano 2.0 y ArguMentes 2022."
+      }
+    ],
+    "Equidad": [
+      {
+        "cargo": "Oficial de Equidad",
+        "Nombre": "Juan Navarro",
+        "Nacionalidad": "Colombiana",
+        "descripcion": "Estudiante de quinto semestre de Psicología en la Universidad del Rosario, con una amplia formación en primeros auxilios psicológicos y gestión emocional gracias a su participación en el grupo institucional LifeTeam. Como debatiente, es semifinalista de Masters en CMUDE Panamá, subcampeón masters y mejor juez de Colegios del TRD V, campeón del TDT entre otros. Dentro de su experiencia en el comité de Equidad, ha sido oficial de Equidad en diversos torneos, dentro de los que destacan: TRD en su VI y VIII edición, X TND, PRE CMUDE 2023, Rosario Open 2022 y 2023 y TONO 2023."
+      },
+      {
+        "cargo": "Adjunto de Equidad",
+        "Nombre": "Mateo Cruzatt",
+        "Nacionalidad": "Chilena",
+        "descripcion": "Estudiante de tercer año de Derecho en la Pontificia Universidad Católica a Chile. Como debatiente, ha llegado a 16 finales entre las que se destacan: ToDi novato 2020, ToDi másters 2022 y TIDDA (2020 y 2022). Además, ha entrado a 20 diferentes tops de oradores. Como Jueze, ha juzgado 10 finales, siendo mejor jueze en 4 torneos diferentes. Finalmente, como Equidad, ha conformado parte de Equipos como el ToEx 6.0, Rosario Open 2023, la Copa Demian de Discursos, PIRI IV y Uniandes IV, entre otros."
+      }
+    ],
+    "Miembros_incorporados": [
+        {
+          "cargo": "Encargado de Proyectos",
+          "Nombre": "Angel Moreno Huaccha",
+          "Nacionalidad": "Peruana",
+          "descripcion": "Estudiante de Informática en la Universidad La Salle-Ramón Llul, debatiente por la ADUB y Co- director de la Liga Temática. Semifinalista CNDI 2022, cuartofinalista TODI 2022, campeón BP Granada 2023 y campeón CMUDE MASTER 2023. Además, ha sido mejor juez del TIPIS 2022, BP INTERPOLI 2023 y panel de las finales de CMUDE PANAMÁ 2023 (Open y Discursos). Ha sido tabulación en más de 70 torneos en formato BP, WS y Demian, entre los que destaca CMUDE 2021, CMUDE 2023, TODI 2023, TIPIS 2023, UAB GAD 2023, BP UB 2023 y los nacionales de Perú, Ecuador, Chile, Colombia, México, Panamá, Guatemala y España."
+        },
+        {
+          "cargo": "Encargado de Redes",
+          "Nombre": "Ian Naí",
+          "Nacionalidad": "Panameña",
+          "descripcion": "Estudiante en Derecho en la Universidad Autónoma de Chiriquí y cuenta con más de tres años de experiencia en el circuito hispanohablante. Fue miembro del equipo de organización de CMUDE Panamá 2023. Como adjudicación de discursos destaca el Nacional de Panamá 2022, Maravilloso Mundo de Debate 2023, Torneo de Novatos 2023, Rosario Open 2023, ToEx11, la Copa Demian de Discursos 2.0 Edición Eva y el Torneo Nacional de Colombia. Además, será parte de torneos como el Nacional de Ecuador, MED 2024 y CMUDE Medellín 2024."
+        }
+    ]
+}

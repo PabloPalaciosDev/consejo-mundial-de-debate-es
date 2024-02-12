@@ -10,7 +10,7 @@ function SobreNosotros (){
     return (
         <>
             <Box>
-            <Typography variant='h2' fontWeight={'bold'} className='banner-title'>¿Quienes Somos?</Typography>
+            <Typography variant='h3' fontWeight={'bold'} className='banner-title'>¿Quienes Somos?</Typography>
                 <Grid container spacing={2} justifyContent={'center'}>
                     <Grid item xs={10} >
                         <Paper elevation={12} 
@@ -26,7 +26,7 @@ function SobreNosotros (){
                                 <SportsScoreIcon style={{'font-size': '20rem', 'color': '#074DA3'}}  />
                                 </Grid>
                                 <Grid xs={10} md={8}>
-                                <Typography className='papercard-content' variant='body1' padding={'20px'} lineHeight={'2'} fontSize={'1.2rem'} textAlign={'left'}>
+                                <Typography className='papercard-content' justifyContent={'left'} variant='body1' padding={'20px'} lineHeight={'2'} fontSize={'1.2rem'} textAlign={'left'}>
                                     Es un espacio dedicado a la <strong>unificación de los diversos circuitos de debate en español</strong>, concebido como un <strong>centro de desarrollo para el fortalecimiento del circuito y la práctica del debate.</strong> Su principal responsabilidad es <strong>asegurar la realización del Campeonato Mundial Universitario de Debate en Español (CMUDE)</strong>, así como gestionar proyectos destinados a impulsar y facilitar la difusión del debate competitivo en español a nivel global y en otras lenguas dentro de los países hispanohablantes.
                                     <br/>
                                     <br/>

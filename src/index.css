@@ -42,7 +42,6 @@ body{
 
 /*REUTILIZABLES*/
 .banner-title{
-    font-size: 3rem;
     width: 100%;
     background-color: var(--color-primario-azul);
     color: var(--color-primario-amarillo);
@@ -52,6 +51,10 @@ body{
 
 .papercard-title{
     text-transform: uppercase;
+}
+.papercard-description{
+    text-align: justify;
+    line-height: 2;
 }
 
 

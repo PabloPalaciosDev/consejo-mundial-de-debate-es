@@ -1,6 +1,6 @@
 import mesa_directiva from '../../assets/data/mesa-directiva.json';
 import React from 'react';
-import { Box, Typography, Grid } from '@mui/material';
+import { Typography, Grid } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,6 +10,17 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import unknowguy from '../../assets/images/unknowguy.webp';
+import angel from '../../assets/images/angelmoreno.webp';
+import benja from '../../assets/images/benja.webp';
+import fabian from '../../assets/images/fabian.webp';
+import jaz from '../../assets/images/jaz.webp';
+import juan from '../../assets/images/juan.webp';
+import lex from '../../assets/images/lex.webp';
+import mateo from '../../assets/images/mateo.webp';
+import ian from '../../assets/images/nai.webp';
+import santi from '../../assets/images/santi.webp';
+import tlali from '../../assets/images/tlali.webp';
+
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -35,16 +46,29 @@ function JuntaDirectiva() {
   };
 
   const renderMesaDirectiva = (data, sectionName) => {
-
     return data.map((miembro, index) => {
+      const imagesMap = {
+        angel: angel,
+        benja: benja,
+        fabian: fabian,
+        jaz: jaz,
+        juan: juan,
+        lex: lex,
+        mateo: mateo,
+        ian: ian, 
+        santi: santi,
+        tlali: tlali,
+      };
+      const image = imagesMap[miembro.img] || unknowguy;
       const uniqueId = `${sectionName}-${index}`;
       return (  
       <Grid key={uniqueId} md={4} xs={12} justifyContent={'center'} alignItems={'center'} width={'100%'}>
       <Card sx={{ maxWidth: '100%', margin: '10px'}}>
       <CardMedia
         component="img"
-        height="300"
-        image={unknowguy}
+        height="400"
+        image={image}
+        style={{ objectFit: 'scale-down', width: '100%', }}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -68,8 +92,8 @@ function JuntaDirectiva() {
 
       <Collapse in={expanded[uniqueId] || false} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Biografía</Typography>
-          <Typography paragraph>
+          <Typography paragraph><strong>BIOGRAFÍA</strong></Typography>
+          <Typography sx={{textAlign: 'justify', lineHeight: '1.7'}}>
             {miembro.descripcion}
           </Typography>
         </CardContent>

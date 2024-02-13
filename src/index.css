@@ -56,6 +56,22 @@ body{
     text-align: justify;
     line-height: 2;
 }
+@keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .flotar {
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+  
 
 
 /*ESTILOS HERO LANDING PAGE*/

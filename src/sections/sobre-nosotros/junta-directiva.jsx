@@ -3,6 +3,8 @@ import React from 'react';
 import { Typography, Grid } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import Avatar from '@mui/material/Avatar';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
@@ -20,6 +22,8 @@ import mateo from '../../assets/images/mateo.webp';
 import ian from '../../assets/images/nai.webp';
 import santi from '../../assets/images/santi.webp';
 import tlali from '../../assets/images/tlali.webp';
+import '../../../node_modules/flag-icon-css/css/flag-icons.min.css';
+
 
 
 const ExpandMore = styled((props) => {
@@ -59,11 +63,31 @@ function JuntaDirectiva() {
         santi: santi,
         tlali: tlali,
       };
+      const flagsMap = {
+        Chilena: <span className="flag-icon flag-icon-cl flag-icon-squared" style={{fontSize: '3em'}}></span>,
+        Colombiana:  <span className="flag-icon flag-icon-co flag-icon-squared" style={{fontSize: '3em'}}></span>,
+        Mexicana:  <span className="flag-icon flag-icon-mx flag-icon-squared" style={{fontSize: '3em'}}></span>,
+        Peruana: <span className="flag-icon flag-icon-pe flag-icon-squared" style={{fontSize: '3em'}}></span>,
+        Panameña: <span className="flag-icon flag-icon-pa flag-icon-squared" style={{fontSize: '3em'}}></span>,
+      };
       const image = imagesMap[miembro.img] || unknowguy;
+      const flag = flagsMap[miembro.nacionalidad] || '';
       const uniqueId = `${sectionName}-${index}`;
       return (  
       <Grid key={uniqueId} md={4} xs={12} justifyContent={'center'} alignItems={'center'} width={'100%'}>
       <Card sx={{ maxWidth: '100%', margin: '10px'}}>
+      <CardHeader
+        avatar={
+          <Grid display={'flex'} alignItems={'center'} gap={2}>
+            <Avatar  aria-label="flag">
+              {flag}
+            </Avatar>
+            <Typography variant="h6" color="text.secondary">
+              {miembro.cargo}
+            </Typography>
+          </Grid>
+        }
+      />
       <CardMedia
         component="img"
         height="400"
@@ -71,11 +95,8 @@ function JuntaDirectiva() {
         style={{ objectFit: 'scale-down', width: '100%', }}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" fontWeight={'bold'}>
           {miembro.Nombre}
-        </Typography>
-        <Typography variant="h6" color="text.secondary">
-          {miembro.cargo}
         </Typography>
       </CardContent>
 
@@ -86,7 +107,7 @@ function JuntaDirectiva() {
           aria-expanded={expanded[uniqueId] || false}
           aria-label="show more"
         >
-          <ExpandMoreIcon />
+          <ExpandMoreIcon className='flotar' sx={{fontSize: '3rem', color: '#074DA3'}}/>
         </ExpandMore>
       </CardActions>
 

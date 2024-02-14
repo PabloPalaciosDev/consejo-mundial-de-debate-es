@@ -27,7 +27,7 @@ import '../../../node_modules/flag-icon-css/css/flag-icons.min.css';
 
 
 const ExpandMore = styled((props) => {
-  const { expand, ...other } = props;
+  const { ...other } = props;
   return <IconButton {...other} />;
 })(({ theme, expand }) => ({
   transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',

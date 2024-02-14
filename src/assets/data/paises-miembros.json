@@ -1,0 +1,57 @@
+{
+    "EstatusA": [
+      {
+        "pais": "Chile",
+        "Estatus": "A"
+      },
+      {
+        "pais": "Colombia",
+        "Estatus": "A"
+      },
+      {
+        "pais": "Ecuador",
+        "Estatus": "A"
+      },
+      {
+        "pais": "España",
+        "Estatus": "A"
+      },
+      {
+        "pais": "México",
+        "Estatus": "A"
+      },
+      {
+        "pais": "Perú",
+        "Estatus": "A"
+      },
+      {
+        "pais": "Venezuela",
+        "Estatus": "A"
+      }
+    ],
+    "EstatusB": [
+      {
+        "pais": "Costa Rica",
+        "Estatus": "B"
+      },
+      {
+        "pais": "Guatemala",
+        "Estatus": "B"
+      },
+      {
+        "pais": "Panamá",
+        "Estatus": "B"
+      }
+    ],
+    "EstatusC": [
+      {
+        "pais": "Estados Unidos",
+        "Estatus": "C"
+      },
+      {
+        "pais": "República Dominicana",
+        "Estatus": "C"
+      }
+    ]
+  }
+  

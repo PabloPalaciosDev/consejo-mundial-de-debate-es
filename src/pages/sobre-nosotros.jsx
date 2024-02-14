@@ -23,7 +23,7 @@ function SobreNosotros (){
                             <Typography className='papercard-title' variant='h4' padding={'20px'} fontWeight={'bold'}>Nuestro Proposito</Typography>
                             <Grid container justifyContent={'center'} alignItems={'center'}>
                                 <Grid xs={10} md={3}>
-                                <SportsScoreIcon style={{'font-size': '20rem', 'color': '#074DA3'}}  />
+                                <SportsScoreIcon style={{'font-size': '20rem', 'color': '#EE181E'}}  />
                                 </Grid>
                                 <Grid xs={10} md={8}>
                                 <Typography className='papercard-content' justifyContent={'left'} variant='body1' padding={'20px'} lineHeight={'2'} fontSize={'1.2rem'} textAlign={'left'}>
@@ -45,7 +45,7 @@ function SobreNosotros (){
                         }}
                         >
                             <Typography className='papercard-title' variant='h4' padding={'20px'} fontWeight={'bold'}>Misión</Typography>
-                            <ChecklistIcon style={{'font-size': '10rem', 'color': '#074DA3'}}  />
+                            <ChecklistIcon style={{'font-size': '10rem', 'color': '#EE181E'}}  />
                             <Typography className='papercard-content' variant='body1' padding={'20px'} lineHeight={'2'} fontSize={'1.2rem'} display={'flex'} flexDirection={'column'}
                             justifyContent={'center'} textAlign={'center'}>
                             Promover la unidad de los circuitos de debate hispanohablantes, desarrollando el debate competitivo a través de asegurar la realización de CMUDE y liderar proyectos que fomenten la difusión del debate en español a nivel mundial.
@@ -62,7 +62,7 @@ function SobreNosotros (){
                         }}
                         >
                             <Typography className='papercard-title' variant='h4' padding={'20px'} fontWeight={'bold'}>Visión</Typography>
-                            <PsychologyAltIcon style={{'font-size': '10rem', 'color': '#074DA3'}}  />
+                            <PsychologyAltIcon style={{'font-size': '10rem', 'color': '#EE181E'}}  />
                             <Typography className='papercard-content' variant='body1' padding={'20px'} lineHeight={'2'} fontSize={'1.2rem'} display={'flex'} flexDirection={'column'}
                             justifyContent={'center'} textAlign={'center'}>
                                 Ser el referente global del debate en español, destacando por la promoción activa de la cultura del debate. Buscamos influir positivamente en la sociedad mediante el fomento del pensamiento crítico y las habilidades argumentativas.

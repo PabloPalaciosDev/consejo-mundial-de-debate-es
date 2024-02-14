@@ -3,11 +3,11 @@ import { Image } from 'primereact/image';
 import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
-import GroupIcon from '@mui/icons-material/Group';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import StorageIcon from '@mui/icons-material/Storage';
+import LanguageIcon from '@mui/icons-material/Language';
+import GavelIcon from '@mui/icons-material/Gavel';
 import logo_cmd from '../../assets/images/logo-cmd1.jpg'
-
 
 
 function NavBar() {
@@ -15,34 +15,39 @@ function NavBar() {
     const items = [
         {
             label: 'Inicio',
-            icon: <HomeIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
+            icon: <HomeIcon style={{ color: '#016143', marginRight: '7px'}} />,
             url: '/'
         },
         {
             label: 'Sobre Nosotros',
-            icon: <GroupsIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
+            icon: <GroupsIcon style={{ color: '#016143', marginRight: '7px'}} />,
             url: '',
             items: [
                 {
                     label: '¿Quienes Somos?',
-                    icon: <QuestionMarkIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
+                    icon: <QuestionMarkIcon style={{ color: '#016143', marginRight: '7px'}} />,
                     url: 'sobre-nosotros'
                 },
                 {
                     label: 'Junta Directiva',
-                    icon: <GroupIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
+                    icon: <GavelIcon style={{ color: '#016143', marginRight: '7px'}} />,
                     url: 'junta-directiva'
                 }
             ]
         },
         {
+            label: 'Países Miembros',
+            icon: <LanguageIcon style={{ color: '#016143', marginRight: '7px'}} />,
+            url: '/miembros'
+        },
+        {
             label: 'Proyectos',
-            icon: <BusinessCenterIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
-            url: 'proyectos-cmd',
+            icon: <BusinessCenterIcon style={{ color: '#016143', marginRight: '7px'}} />,
+            url: '/proyectos-cmd',
         },
         {
             label: 'Base de Datos',
-            icon: <StorageIcon style={{ color: '#074DA3', marginRight: '7px'}} />,
+            icon: <StorageIcon style={{ color: '#016143', marginRight: '7px'}} />,
             url: 'base-de-datos',
         },
         /*

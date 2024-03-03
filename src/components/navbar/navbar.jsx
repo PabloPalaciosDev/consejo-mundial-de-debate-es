@@ -4,59 +4,52 @@ import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-//import StorageIcon from '@mui/icons-material/Storage';
 import LanguageIcon from '@mui/icons-material/Language';
 import GavelIcon from '@mui/icons-material/Gavel';
-import logo_cmd from '../../assets/images/logo-cmd1.jpg'
-
+import logo_cmd from '../../assets/images/logo-cmd1.jpg';
+import { useNavigate } from 'react-router-dom'; // Importa useNavigate
 
 function NavBar() {
+    const navigate = useNavigate(); // Hook para la navegación
+
+    // Función para manejar la navegación
+    const navigateTo = (path) => {
+        navigate(path);
+    };
 
     const items = [
         {
             label: 'Inicio',
             icon: <HomeIcon style={{ color: '#016143', marginRight: '7px'}} />,
-            url: '/'
+            command: () => { navigateTo('/'); }
         },
         {
             label: 'Sobre Nosotros',
             icon: <GroupsIcon style={{ color: '#016143', marginRight: '7px'}} />,
-            url: '',
             items: [
                 {
                     label: '¿Quienes Somos?',
                     icon: <QuestionMarkIcon style={{ color: '#016143', marginRight: '7px'}} />,
-                    url: 'sobre-nosotros'
+                    command: () => { navigateTo('/sobre-nosotros'); }
                 },
                 {
                     label: 'Junta Directiva',
                     icon: <GavelIcon style={{ color: '#016143', marginRight: '7px'}} />,
-                    url: 'junta-directiva'
+                    command: () => { navigateTo('/junta-directiva'); }
                 }
             ]
         },
         {
             label: 'Países Miembros',
             icon: <LanguageIcon style={{ color: '#016143', marginRight: '7px'}} />,
-            url: '/miembros'
+            command: () => { navigateTo('/miembros'); }
         },
         {
             label: 'Proyectos',
             icon: <BusinessCenterIcon style={{ color: '#016143', marginRight: '7px'}} />,
-            url: '/proyectos-cmd',
-        },
-        /*
-        {
-            label: 'Base de Datos',
-            icon: <StorageIcon style={{ color: '#016143', marginRight: '7px'}} />,
-            url: 'base-de-datos',
-        },
-        {
-            label: 'Calendario de Eventos',
-            icon: 'pi pi-calendar',
-            url: '/calendario-eventos'
+            command: () => { navigateTo('/proyectos-cmd'); }
         }
-        */
+        // Agrega más ítems según sea necesario
     ];
 
     return (
@@ -66,8 +59,7 @@ function NavBar() {
                 <Menubar model={items} className='menu-bar-container' />
             </nav>
         </div>
-    )
+    );
 }
-
 
 export default NavBar;

@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/landing/landing';
 import SobreNosotros from './pages/sobre-nosotros';
 import ProyectosCmd from './pages/proyectos-cmd';
-import BaseDeDatos from './pages/base-de-datos-cmd';
 import JuntaDirectiva from './sections/sobre-nosotros/junta-directiva';
 import PaisesMiembros from './pages/paises-miembros';
 
@@ -16,16 +15,15 @@ const routes = [
   { path: '/sobre-nosotros', element: <SobreNosotros /> },
   { path: '/junta-directiva', element: <JuntaDirectiva />},
   { path: '/miembros', element: <PaisesMiembros />},
-  { path: '/proyectos-cmd', element: <ProyectosCmd /> },
-  { path: '/base-de-datos', element: <BaseDeDatos /> },
+  { path: '/proyectos-cmd', element: <ProyectosCmd /> }
 ];
 
 function App() {
   return (
     <>
       <PrimeReactProvider>
-        <NavBar />
         <BrowserRouter>
+        <NavBar />
           <Routes>
             {routes.map((route) => (
               <Route key={route.path} path={route.path} element={route.element} />

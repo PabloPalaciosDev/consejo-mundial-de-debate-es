@@ -4,7 +4,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import GroupsIcon from '@mui/icons-material/Groups';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-import StorageIcon from '@mui/icons-material/Storage';
+//import StorageIcon from '@mui/icons-material/Storage';
 import LanguageIcon from '@mui/icons-material/Language';
 import GavelIcon from '@mui/icons-material/Gavel';
 import logo_cmd from '../../assets/images/logo-cmd1.jpg'
@@ -45,12 +45,12 @@ function NavBar() {
             icon: <BusinessCenterIcon style={{ color: '#016143', marginRight: '7px'}} />,
             url: '/proyectos-cmd',
         },
+        /*
         {
             label: 'Base de Datos',
             icon: <StorageIcon style={{ color: '#016143', marginRight: '7px'}} />,
             url: 'base-de-datos',
         },
-        /*
         {
             label: 'Calendario de Eventos',
             icon: 'pi pi-calendar',

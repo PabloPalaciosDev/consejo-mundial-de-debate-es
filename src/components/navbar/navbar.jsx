@@ -7,7 +7,7 @@ import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import LanguageIcon from '@mui/icons-material/Language';
 import GavelIcon from '@mui/icons-material/Gavel';
 import logo_cmd from '../../assets/images/logo-cmd1.jpg';
-import { useNavigate } from 'react-router-dom'; // Importa useNavigate
+import { useNavigate, Link } from 'react-router-dom'; // Importa useNavigate
 
 function NavBar() {
     const navigate = useNavigate(); // Hook para la navegación
@@ -53,12 +53,14 @@ function NavBar() {
     ];
 
     return (
-        <div className='navbar'>
-            <Image src={logo_cmd} alt="logo-cmd" width="250" />
-            <nav className="card">
-                <Menubar model={items} className='menu-bar-container' />
-            </nav>
-        </div>
+      <div className="navbar">
+        <nav className="card">
+          <Link to="/">
+            <Image src={logo_cmd} alt="logo-cmd" width="50%" />
+          </Link>
+          <Menubar model={items} className="menu-bar-container" />
+        </nav>
+      </div>
     );
 }
 

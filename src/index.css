@@ -33,8 +33,13 @@ body{
 }
 
 .navbar nav{
-    padding-top: 0;
+    padding-top: 100;
 }
+
+.p-menubar {
+    border: none;
+}
+
 
 /*REUTILIZABLES*/
 .banner-title{

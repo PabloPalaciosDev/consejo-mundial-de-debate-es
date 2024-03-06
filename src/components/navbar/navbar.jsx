@@ -6,6 +6,7 @@ import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import LanguageIcon from '@mui/icons-material/Language';
 import GavelIcon from '@mui/icons-material/Gavel';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import logo_cmd from '../../assets/images/logo-cmd1.jpg';
 import { useNavigate, Link } from 'react-router-dom'; // Importa useNavigate
 
@@ -48,8 +49,12 @@ function NavBar() {
             label: 'Proyectos',
             icon: <BusinessCenterIcon style={{ color: '#016143', marginRight: '7px'}} />,
             command: () => { navigateTo('/proyectos-cmd'); }
+        },
+        {
+            label: 'Calendario de Torneos',
+            icon: <CalendarMonthIcon style={{ color: '#016143', marginRight: '7px'}} />,
+            command: () => { navigateTo('/calendario'); }
         }
-        // Agrega más ítems según sea necesario
     ];
 
     return (

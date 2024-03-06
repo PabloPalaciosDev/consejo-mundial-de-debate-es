@@ -9,13 +9,15 @@ import SobreNosotros from './pages/sobre-nosotros';
 import ProyectosCmd from './pages/proyectos-cmd';
 import JuntaDirectiva from './sections/sobre-nosotros/junta-directiva';
 import PaisesMiembros from './pages/paises-miembros';
+import CalendarioTorneos from './pages/calendario-torneos';
 
 const routes = [
   { path: '/', element: <LandingPage /> },
   { path: '/sobre-nosotros', element: <SobreNosotros /> },
   { path: '/junta-directiva', element: <JuntaDirectiva />},
   { path: '/miembros', element: <PaisesMiembros />},
-  { path: '/proyectos-cmd', element: <ProyectosCmd /> }
+  { path: '/proyectos-cmd', element: <ProyectosCmd /> },
+  { path: '/calendario', element: <CalendarioTorneos />}
 ];
 
 function App() {
